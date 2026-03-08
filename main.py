@@ -24,7 +24,6 @@ time.sleep(2)
 print("\n" * 3)
 
 def sport():
-    question_rand = random.randint(0, 4)
 
     questions = ("How many players are on a basketball team on the court?: ",
                 "Which country invented basketball?: ",
