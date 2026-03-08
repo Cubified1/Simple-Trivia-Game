@@ -35,11 +35,11 @@ def sport():
                  "Which sport uses a puck?: ")
 
 
-    options = (("(A) 4, (B) 5, (C) 6, (D) 7: "),
-               ("(A) USA, (B) UK, (C) Canada, (D) Australia: "),
-               ("(A) 3, (B) 6, (C) 7, (D) 8: "),
-               ("(A) 9, (B) 12, (C) 18, (D) 24: "),
-               ("(A) Lacrosse, (B) Hockey, (C) Polo, (D) Curling: "))
+    options = ("(A) 4, (B) 5, (C) 6, (D) 7: ",
+               "(A) USA, (B) UK, (C) Canada, (D) Australia: ",
+               "(A) 3, (B) 6, (C) 7, (D) 8: ",
+               "(A) 9, (B) 12, (C) 18, (D) 24: ",
+               "(A) Lacrosse, (B) Hockey, (C) Polo, (D) Curling: ")
 
     answer = ("B", "C", "B", "C", "B")
     for question in questions:
